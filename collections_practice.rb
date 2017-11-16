@@ -33,5 +33,5 @@ end
 
 
 def add_s(array)
- array.each_with_index.collect {|adds| adds + "s"}
+ array.each_with_index.collect {|adds, i| adds + "s", i != 1}
 end
