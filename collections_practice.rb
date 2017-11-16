@@ -33,5 +33,5 @@ end
 
 
 def add_s(array)
- array.each_with_index.collect {|adds| adds.gsub (dollar[4], "s")}
+ array.each_with_index.collect {|adds| adds.gsub(adds[4], "s")}
 end
