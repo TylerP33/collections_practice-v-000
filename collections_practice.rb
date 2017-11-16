@@ -33,6 +33,6 @@ end
 
 
 def add_s(array)
- array.each_with_index.collect {|adds, i| array[0, 2, 3] + "s"}
+ array.each_with_index.collect {|adds| adds + "s"}
 
 end
