@@ -37,4 +37,5 @@ new_array = []
 array.each_with_index.collect {|letter| new_array << letter + "s"}
 new_array << new_array[1].delete("s")
 array[0], array[1], array[2] array[3], array[4] = array[0], array[4], array[1] array[2] array[3]
+new_array
 end
