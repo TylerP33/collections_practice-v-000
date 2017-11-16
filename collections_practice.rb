@@ -35,7 +35,3 @@ end
 def add_s(array)
  array.each_with_index.collect {|adds| adds.gsub (dollar[4], "s")}
 end
-
-def kesha_maker(array)
-array.map {|dollar| dollar.gsub(dollar[2], "$")}
-end
