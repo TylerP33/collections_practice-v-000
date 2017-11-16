@@ -33,5 +33,5 @@ end
 
 
 def add_s(array)
- array.map {|adds| adds.gsub(adds[4], "s")}
+ array.map {|adds| adds.sub(adds[4], "s")}
 end
