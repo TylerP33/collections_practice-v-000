@@ -36,4 +36,5 @@ def add_s(array)
 new_array = []
 array.each_with_index.collect {|letter| new_array << letter + "s"}
 new_array << new_array[1].delete("s")
+new_array[1] = new_array[4]
 end
