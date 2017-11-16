@@ -33,12 +33,5 @@ end
 
 
 def add_s(array)
- array.each_with_index.collect {|adds|
-   if adds = ("")
-     adds + "s"
-   else
-     "feet"
-   end
-
- }
+ array.each_with_index.collect {|adds| adds + 2}
 end
