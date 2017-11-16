@@ -38,6 +38,7 @@ def add_s(array)
      adds + "s"
    else
      "feet"
+   end
 
  }
 end
